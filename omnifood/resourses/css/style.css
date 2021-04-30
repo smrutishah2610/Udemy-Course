@@ -541,6 +541,27 @@ footer {
     float: left;
 }
 
+.udemy-link:visited,
+.udemy-link:link {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 90%;
+    text-decoration: none !important;
+    border-bottom: 1px solid transparent !important;
+}
+
+.udemy-link:hover,
+.udemy-link:active {
+    color: #e67e22;
+    padding-bottom: 1px !important;
+    border-bottom: 1px solid #e67e22 !important;
+    transition: border-bottom 0.2s, color 0.2s !important;
+    -webkit-transition: border-bottom 0.2s, color 0.2s !important;
+    -moz-transition: border-bottom 0.2s, color 0.2s !important;
+    -ms-transition: border-bottom 0.2s, color 0.2s !important;
+    -o-transition: border-bottom 0.2s, color 0.2s !important;
+}
+
 .social-links {
     list-style: none;
     float: right;
@@ -580,7 +601,8 @@ footer {
 .ion-social-facebook,
 .ion-social-twitter,
 .ion-social-googleplus,
-.ion-social-instagram {
+.ion-social-instagram,
+.udemy-icon {
     transition: color 0.2s;
 }
 
