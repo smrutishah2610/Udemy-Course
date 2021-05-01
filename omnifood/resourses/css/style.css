@@ -250,7 +250,7 @@ header {
     float: right;
     margin-top: 30px;
     cursor: pointer;
-    display:none;
+    display: none;
 }
 
 .mobile-nav-icon i {
@@ -403,7 +403,7 @@ header {
 
 
 /* ------------------------------------------------ */
-/* CITIES */
+/* testimonials */
 /* ------------------------------------------------ */
 .section-testimonials {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../css/images/back-customers.jpg);
